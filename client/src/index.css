@@ -29,6 +29,14 @@ a {
   width: 100%;
 }
 
+.css-ga59me-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black !important;
+}
+
+.css-q4bt8w-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-q4bt8w-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-q4bt8w-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black !important;
+}
+
 @media screen and (max-width: 900px) {
   .my_profile-bg {
     width: 100%;
