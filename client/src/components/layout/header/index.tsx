@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
       <Toolbar>
         <Stack direction="row" width="100%" justifyContent="flex-end" alignItems="center" >
           {showUserInfo && (
-            <Stack direction="row" gap="16px" alignItems="center">
+            <Stack direction="row" gap="16px" alignItems="center" color='#222222'>
               {user.avatar && <Avatar src={user?.avatar} alt={user?.name} />}
               {user.name && <Typography variant="subtitle2">{user?.name}</Typography>}
             </Stack>

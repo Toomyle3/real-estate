@@ -126,7 +126,7 @@ function App() {
     <ColorModeContextProvider>
       <CssBaseline />
       <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
-      <RefineSnackbarProvider>
+      <RefineSnackbarProvider color="white">
         <Refine
           dataProvider={dataProvider(
             "https://tommy-realestate.onrender.com/api/v1"
@@ -174,6 +174,7 @@ function App() {
           authProvider={authProvider}
           LoginPage={Login}
           DashboardPage={Home}
+          
         />
       </RefineSnackbarProvider>
     </ColorModeContextProvider>

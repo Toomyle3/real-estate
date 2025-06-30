@@ -24,6 +24,7 @@ export const Layout: React.FC<LayoutProps> = ({
           flexDirection: "column",
           flex: 1,
           minHeight: "100vh",
+          background:'white'
         }}
       >
         <HeaderToRender />
