@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
   const showUserInfo = user && (user.name || user.avatar);
 
   return (
-    <AppBar color="default" position="sticky" elevation={0} sx={{ background: '#fcfcf'}}>
+    <AppBar color="default" position="sticky" elevation={0} sx={{ background: 'white'}}>
       <Toolbar>
         <Stack direction="row" width="100%" justifyContent="flex-end" alignItems="center" >
           {showUserInfo && (
